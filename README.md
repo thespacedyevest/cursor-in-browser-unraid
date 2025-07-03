@@ -11,7 +11,7 @@ L'Arfo (arfo_dublo@boards.digital)⁠
 
 ### **• Where to get the image:**
 
-[https://github.com/Arfo-du-blo/cursor-in-browser](https://hub.docker.com/r/arfodublo/cursor-in-browser)
+https://hub.docker.com/r/arfodublo/cursor-in-browser
 
 ### **• Quick run :** 
 
@@ -43,4 +43,4 @@ arfodublo/cursor-in-browser:1.2.0
 |TITLE|	The page title displayed on the web browser, default "KasmVNC Client".|
 |FM_HOME|	This is the home directory (landing) for the file manager, default "/config".|
 
-### More details about the image here: [https://github.com/Arfo-du-blo/cursor-in-browser](https://hub.docker.com/r/arfodublo/cursor-in-browser)
+### More details about the image here: https://hub.docker.com/r/arfodublo/cursor-in-browser
