@@ -1,6 +1,8 @@
 # cursor-in-browser
 ## Deploy and use **Cursor - The AI Code Editor** directly in a **web browser**!
 
+This work have been **strongly** influenced by the following repo: https://github.com/sytone/obsidian-remote !
+
 Now available for the last version of Cursor (1.2.0) and for x64 architecture.
 
 Next step will be to add arm64 architecture for running the container on SBCs and access the service from anywhere. Images of older versions will also be provided.
@@ -44,3 +46,5 @@ arfodublo/cursor-in-browser:1.2.0
 |FM_HOME|	This is the home directory (landing) for the file manager, default "/config".|
 
 ### More details about the image here: https://hub.docker.com/r/arfodublo/cursor-in-browser
+
+A particular thanks to Joe (Sytone) who did the same job for Obsidian that can be found here: https://github.com/sytone/obsidian-remote
