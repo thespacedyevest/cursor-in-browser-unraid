@@ -1,7 +1,7 @@
 # cursor-in-browser
 ## Deploy and use **Cursor - The AI Code Editor** directly in a **web browser**!
 
-This work have been **strongly** influenced by the following repo: https://github.com/sytone/obsidian-remote !
+This work have been **strongly** influenced by the following repo: https://github.com/sytone/obsidian-remote
 
 Now available for the last version of Cursor (1.2.0) and for x64 architecture.
 
