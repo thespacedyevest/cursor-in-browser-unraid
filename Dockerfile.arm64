@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-kasmvnc:debianbookworm-version-0bcd760b@sha256:4e927378ad4e6aa77154032579b1e1fbb1d8afa5e29a2391d1a4a17eb9381fc7
+FROM ghcr.io/linuxserver/baseimage-kasmvnc:debianbookworm
 
 LABEL maintainer="arfo_dublo@boards.digital" \
       org.opencontainers.image.authors="arfo_dublo@boards.digital" \
