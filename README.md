@@ -5,7 +5,7 @@ This work have been **strongly** influenced by the following repo: https://githu
 
 Now available for the last version of Cursor (1.2.0) and for x64 architecture.
 
-Next step will be to add arm64 architecture for running the container on SBCs and access the service from anywhere. Images of older versions will also be provided.
+Images of older **Cursor** versions will also be provided.
 
 ### **• Maintained by:**
 
