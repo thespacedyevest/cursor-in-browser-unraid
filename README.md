@@ -29,7 +29,7 @@ arfodublo/cursor-in-browser:1.2.0
 
 ### **• Important note :**
 
-Some buttons are not directly clickable in the UI. Log in button is part of those, to use these buttons you will need to copy the link (right click on them then copy) and open them in a new tab. Then follow the log in procedure on Cursor official web site.
+Some buttons are not directly clickable in the UI. **Log in** button is part of those, to use these buttons you will need to copy the link (right click on them then copy) and open them in a new tab. Then follow the log in procedure on Cursor official web site in this **Log in** button example.
 
 ### **• Environment Variables :** 
 
