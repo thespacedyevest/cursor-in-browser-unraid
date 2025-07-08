@@ -27,9 +27,11 @@ docker run -d `
 arfodublo/cursor-in-browser:1.2.0
 ```
 
-### **• Important note :**
+### **• Important notes :**
 
-Some buttons are not directly clickable in the UI. **Log in** button is part of those, to use these buttons you will need to copy the link (right click on them then copy) and open them in a new tab. Then follow the log in procedure on Cursor official web site in this **Log in** button example.
+1. Some buttons are not directly clickable in the UI. **Log in** button is part of those, to use these buttons you will need to copy the link (right click on them then copy) and open them in a new tab. Then follow the log in procedure on Cursor official web site in this **Log in** button example.
+
+2. If you closed Cursor you will be redirected to a black screen. To reopen Cursor right click on this screen a menu will appear with Cursor icon and name. You can simply click on it to open it back.
 
 ### **• Environment Variables :** 
 
