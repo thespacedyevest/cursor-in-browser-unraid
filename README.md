@@ -3,7 +3,7 @@
 
 This work have been **strongly** influenced by the following repo: https://github.com/sytone/obsidian-remote
 
-Now available for the last version of Cursor (1.2.0) for x64 and arm64 architectures.
+Now available for version 1.2.0 of Cursor for x64 and arm64 architectures.
 
 Images of older **Cursor** versions will also be provided.
 
