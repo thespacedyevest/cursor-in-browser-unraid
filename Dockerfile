@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-kasmvnc:debianbookworm
+FROM ghcr.io/linuxserver/kasm:1.17.0-ls84
 
 LABEL maintainer="arfo_dublo@boards.digital" \
       org.opencontainers.image.authors="arfo_dublo@boards.digital" \
