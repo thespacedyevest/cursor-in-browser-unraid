@@ -11,10 +11,13 @@ ARG CURSOR_VERSION=1.2.0
 ENV DISPLAY=:1
 ENV CURSOR_DOWNLOAD_URL=https://downloads.cursor.com/production/3c325775412a19b2f2147eed6b33f36371f025b0/linux/x64/Cursor-1.2.0-x86_64.AppImage
 
+ARG DEBIAN_FRONTEND="noninteractive"
+
 # Update and install necessary packages
 RUN echo "**** install packages ****" && \
     apt-get update && \
-    apt-get install -y --no-install-recommends curl fuse python3.11-venv libfuse2 python3-xdg libgtk-3-0 libnotify4 libatspi2.0-0 libsecret-1-0 libnss3 desktop-file-utils fonts-noto-color-emoji git ssh-askpass && \
+    apt-get install -y --no-install-recommends curl fuse python3-venv libfuse2 python3-xdg libgtk-3-0 libnotify4 libatspi2.0-0 libsecret-1-0 libnss3 desktop-file-utils fonts-noto-color-emoji git ssh-askpass && \
+    python3 -m venv /lsiopy && \
     apt-get autoclean && rm -rf /var/lib/apt/lists/* /var/tmp/* /tmp/*
 
 # Download Cursor AppImage and manage permissions
@@ -32,7 +35,7 @@ ENV CUSTOM_PORT="8080" \
     FM_HOME="/cursor"
 
 # Add local files and Cursor icon
-COPY root/ /
+COPY /root /
 COPY cursor_icon.png /cursor_icon.png
 
 # Expose ports and volumes
