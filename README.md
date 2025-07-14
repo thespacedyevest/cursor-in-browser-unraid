@@ -9,7 +9,7 @@ Images of older **Cursor** versions will also be provided.
 
 ### **• Maintained by:**
 
-L'Arfo (arfo_dublo@boards.digital)⁠
+Forked from L'Arfo (arfo_dublo@boards.digital)⁠
 
 ### **• Where to get the image:**
 
